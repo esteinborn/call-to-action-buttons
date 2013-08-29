@@ -12,6 +12,7 @@
   border-radius: 5px;
   position: relative;
   z-index: 10;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   -ms-user-select: none;
@@ -37,6 +38,7 @@
 .cta:hover,
 .cta:active {
   color: #FFF;
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
@@ -60,6 +62,7 @@
 
 .cta-red:before {
   border: solid 1px #f67b5f;
+  border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
@@ -93,6 +96,7 @@
 
 .cta-green:before {
   border: solid 1px #78e695;
+  border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
@@ -126,6 +130,7 @@
 
 .cta-blue:before {
   border: solid 1px #3bb4ec;
+  border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
@@ -159,6 +164,7 @@
 
 .cta-yellow:before {
   border: solid 1px #ffc63b;
+  border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
@@ -180,20 +186,23 @@
   background-image:         linear-gradient(to bottom, #FF9900, #FFCC00);
 }
 
-.icon-download, .icon-check {
-  margin-left:-5px;
-  padding-left: 37px;
+.icon-download,
+.icon-check,
+.icon-go,
+.icon-more {
   display: block;
   height: 50px;
   background: transparent url(sprite.png) no-repeat;
 }
 
+.icon-download, .icon-check {
+  margin-left:-5px;
+  padding-left: 37px;
+}
+
 .icon-go, .icon-more {
   margin-right:-5px;
   padding-right: 40px;
-  display: block;
-  height: 50px;
-  background: transparent url(sprite.png) no-repeat;
 }
 
 .icon-download {background-position: 0 -141px;}
