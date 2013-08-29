@@ -72,6 +72,7 @@ header .buttons li {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 0.5em;
+  overflow: hidden;
 }
 
 @media (min-width: 550px) {
@@ -79,10 +80,14 @@ header .buttons li {
     padding: 0 2em;
   }
 }
+
 .main {
-  margin-bottom: 2em;
+  padding-bottom: 2em;
+  box-shadow: 0px 0px 12px #34454B;
 }
+
 footer {
+  box-shadow: inset 0px 0px 14px #34454B;
   padding:1em 0 3em 0;
   background-color: #5e738f;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#5e738f), to(#455461));
