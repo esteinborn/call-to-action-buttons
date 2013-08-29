@@ -2,6 +2,12 @@ body {
   font: 16px Verdana, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
+  background-color: #BBD6DF;
+}
+
+a,
+a:visited {
+  xcolor:#EEE;
 }
 
 header {
