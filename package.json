@@ -1,0 +1,21 @@
+{
+  "name": "call-to-action-buttons",
+  "title": "Call to Action Buttons",
+  "version": "1.0.0",
+  "description": "I use these cta buttons that were originally from http://pixify.com but they have removed the post. I grabbed the zip from teh internet wayback machine, and am publishing on GitHub so that I have easy access to them. Hoping to put this into SASS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esteinborn/call-to-action-buttons.git"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-compass": "~0.3.0",
+    "grunt-beep": "~0.3.0",
+    "grunt-contrib-csslint": "~0.1.2"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/decodigo/blob/master/license.md"
+  }
+}
