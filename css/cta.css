@@ -2,6 +2,7 @@
 .cta {
   display: inline-block;
   padding: 0 20px;
+  margin: 5px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   font: bold 18px Arial, Helvetica, sans-serif;
@@ -23,7 +24,7 @@
   overflow: visible;
 }
 
-/* line 25, ../scss/cta.scss */
+/* line 26, ../scss/cta.scss */
 .cta:before {
   content: "";
   display: block;
@@ -46,15 +47,15 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
-/* line 46, ../scss/cta.scss */
+/* line 47, ../scss/cta.scss */
 .cta-red, .cta-green, .cta-blue, .cta-yellow {
-  -webkit-transition: border-color .218s;
-  -moz-transition: border .218s;
-  -o-transition: border-color .218s;
-  transition: border-color .218s;
+  -webkit-transition: all .218s;
+  -moz-transition: all .218s;
+  -o-transition: all .218s;
+  transition: all .218s;
 }
 
-/* line 53, ../scss/cta.scss */
+/* line 54, ../scss/cta.scss */
 .cta-red {
   border: solid 1px #b8473d;
   background-color: #f36c4d;
@@ -65,14 +66,14 @@
   background-image: linear-gradient(to bottom, #f36c4d, #ef3e29);
 }
 
-/* line 63, ../scss/cta.scss */
+/* line 64, ../scss/cta.scss */
 .cta-red:before {
   border: solid 1px #f67b5f;
   border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 69, ../scss/cta.scss */
+/* line 70, ../scss/cta.scss */
 .cta-red:hover {
   border: solid 1px #90332b;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fb856a), to(#f7523f));
@@ -82,7 +83,7 @@
   background-image: linear-gradient(to bottom, #fb856a, #f7523f);
 }
 
-/* line 78, ../scss/cta.scss */
+/* line 79, ../scss/cta.scss */
 .cta-red:active {
   border: solid 1px #90332b;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ef3e29), to(#f36c4d));
@@ -92,7 +93,7 @@
   background-image: linear-gradient(to bottom, #ef3e29, #f36c4d);
 }
 
-/* line 87, ../scss/cta.scss */
+/* line 88, ../scss/cta.scss */
 .cta-green {
   border: solid 1px #00922d;
   background-color: #00B638;
@@ -103,14 +104,14 @@
   background-image: linear-gradient(to bottom, #50de76, #00b638);
 }
 
-/* line 97, ../scss/cta.scss */
+/* line 98, ../scss/cta.scss */
 .cta-green:before {
   border: solid 1px #78e695;
   border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 103, ../scss/cta.scss */
+/* line 104, ../scss/cta.scss */
 .cta-green:hover {
   border: solid 1px #006e22;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#5cec82), to(#00c43c));
@@ -120,7 +121,7 @@
   background-image: linear-gradient(to bottom, #5cec82, #00c43c);
 }
 
-/* line 112, ../scss/cta.scss */
+/* line 113, ../scss/cta.scss */
 .cta-green:active {
   border: solid 1px #006e22;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#00b638), to(#50de76));
@@ -130,7 +131,7 @@
   background-image: linear-gradient(to bottom, #00b638, #50de76);
 }
 
-/* line 121, ../scss/cta.scss */
+/* line 122, ../scss/cta.scss */
 .cta-blue {
   border: solid 1px #0870c0;
   background-color: #007BDA;
@@ -141,14 +142,14 @@
   background-image: linear-gradient(to bottom, #00c6ff, #007bda);
 }
 
-/* line 131, ../scss/cta.scss */
+/* line 132, ../scss/cta.scss */
 .cta-blue:before {
   border: solid 1px #3bb4ec;
   border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 137, ../scss/cta.scss */
+/* line 138, ../scss/cta.scss */
 .cta-blue:hover {
   border: solid 1px #065491;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#21cdff), to(#0387ec));
@@ -158,7 +159,7 @@
   background-image: linear-gradient(to bottom, #21cdff, #0387ec);
 }
 
-/* line 146, ../scss/cta.scss */
+/* line 147, ../scss/cta.scss */
 .cta-blue:active {
   border: solid 1px #065491;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#007bda), to(#00c6ff));
@@ -168,7 +169,7 @@
   background-image: linear-gradient(to bottom, #007bda, #00c6ff);
 }
 
-/* line 155, ../scss/cta.scss */
+/* line 156, ../scss/cta.scss */
 .cta-yellow {
   border: solid 1px #db8300;
   background-color: #FF9900;
@@ -179,14 +180,14 @@
   background-image: linear-gradient(to bottom, #ffcc00, #ff9900);
 }
 
-/* line 165, ../scss/cta.scss */
+/* line 166, ../scss/cta.scss */
 .cta-yellow:before {
   border: solid 1px #ffc63b;
   border-color: #EEE;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 171, ../scss/cta.scss */
+/* line 172, ../scss/cta.scss */
 .cta-yellow:hover {
   border: solid 1px #ad6800;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd322), to(#ffa51f));
@@ -196,7 +197,7 @@
   background-image: linear-gradient(to bottom, #ffd322, #ffa51f);
 }
 
-/* line 180, ../scss/cta.scss */
+/* line 181, ../scss/cta.scss */
 .cta-yellow:active {
   border: solid 1px #ad6800;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9900), to(#ffcc00));
@@ -206,7 +207,7 @@
   background-image: linear-gradient(to bottom, #ff9900, #ffcc00);
 }
 
-/* line 192, ../scss/cta.scss */
+/* line 190, ../scss/cta.scss */
 .icon-download,
 .icon-check,
 .icon-go,
@@ -216,101 +217,101 @@
   background: transparent url(sprite.png) no-repeat;
 }
 
-/* line 198, ../scss/cta.scss */
+/* line 199, ../scss/cta.scss */
 .icon-download, .icon-check {
   margin-left: -5px;
   padding-left: 37px;
 }
 
-/* line 203, ../scss/cta.scss */
+/* line 204, ../scss/cta.scss */
 .icon-go, .icon-more {
   margin-right: -5px;
   padding-right: 40px;
 }
 
-/* line 208, ../scss/cta.scss */
+/* line 209, ../scss/cta.scss */
 .icon-download {
   background-position: 0 -141px;
 }
 
-/* line 209, ../scss/cta.scss */
+/* line 210, ../scss/cta.scss */
 .icon-check {
   background-position: 0 -66px;
 }
 
-/* line 210, ../scss/cta.scss */
+/* line 211, ../scss/cta.scss */
 .icon-more {
   background-position: right 10px;
 }
 
-/* line 211, ../scss/cta.scss */
+/* line 212, ../scss/cta.scss */
 .icon-go {
   background-position: right -212px;
 }
 
-/* line 213, ../scss/cta.scss */
+/* line 214, ../scss/cta.scss */
 .cta-small {
   font-size: 16px;
   height: 36px;
   line-height: 36px;
 }
 
-/* line 219, ../scss/cta.scss */
+/* line 220, ../scss/cta.scss */
 .cta-small .icon-more {
   background-position: right 5px;
   height: 35px;
 }
 
-/* line 220, ../scss/cta.scss */
+/* line 221, ../scss/cta.scss */
 .cta-small .icon-check {
   background-position: 0 -72px;
   height: 35px;
 }
 
-/* line 221, ../scss/cta.scss */
+/* line 222, ../scss/cta.scss */
 .cta-small .icon-download {
   background-position: 0 -147px;
   height: 35px;
 }
 
-/* line 222, ../scss/cta.scss */
+/* line 223, ../scss/cta.scss */
 .cta-small .icon-go {
   background-position: right -219px;
   height: 35px;
 }
 
-/* line 224, ../scss/cta.scss */
+/* line 225, ../scss/cta.scss */
 .cta-big {
   font-size: 22px;
   height: 60px;
   line-height: 60px;
 }
 
-/* line 230, ../scss/cta.scss */
+/* line 231, ../scss/cta.scss */
 .cta-big .icon-download {
   background-position: 0 -136px;
   height: 60px;
 }
 
-/* line 231, ../scss/cta.scss */
+/* line 232, ../scss/cta.scss */
 .cta-big .icon-check {
   background-position: 0 -61px;
   height: 60px;
 }
 
-/* line 232, ../scss/cta.scss */
+/* line 233, ../scss/cta.scss */
 .cta-big .icon-more {
   background-position: right 15px;
   height: 60px;
 }
 
-/* line 233, ../scss/cta.scss */
+/* line 234, ../scss/cta.scss */
 .cta-big .icon-go {
   background-position: right -207px;
   height: 60px;
 }
 
-/* line 235, ../scss/cta.scss */
+/* line 236, ../scss/cta.scss */
 .cta-huge {
   font-size: 26px;
   height: 76px;
@@ -318,38 +319,38 @@
   padding: 0 26px;
 }
 
-/* line 242, ../scss/cta.scss */
+/* line 243, ../scss/cta.scss */
 .cta-huge .icon-download {
   background-position: 0 -128px;
   height: 76px;
 }
 
-/* line 243, ../scss/cta.scss */
+/* line 244, ../scss/cta.scss */
 .cta-huge .icon-check {
   background-position: 0 -53px;
   height: 76px;
 }
 
-/* line 244, ../scss/cta.scss */
+/* line 245, ../scss/cta.scss */
 .cta-huge .icon-more {
   background-position: right 23px;
   height: 76px;
 }
 
-/* line 245, ../scss/cta.scss */
+/* line 246, ../scss/cta.scss */
 .cta-huge .icon-go {
   background-position: right -199px;
   height: 76px;
 }
 
-/* line 247, ../scss/cta.scss */
+/* line 248, ../scss/cta.scss */
 .cta-subhead {
   padding: 20px 30px;
   font-size: 26px;
   line-height: 26px;
 }
 
-/* line 253, ../scss/cta.scss */
+/* line 254, ../scss/cta.scss */
 .cta-subhead i {
   color: #000;
   color: rgba(0, 0, 0, 0.5);
