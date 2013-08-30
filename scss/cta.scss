@@ -1,6 +1,7 @@
 .cta {
   display: inline-block;
   padding: 0 20px;
+  margin: 5px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   font: bold 18px Arial, Helvetica, sans-serif;
@@ -44,10 +45,10 @@
 }
 
 .cta-red, .cta-green, .cta-blue, .cta-yellow {
-  -webkit-transition: border-color .218s;
-  -moz-transition: border .218s;
-  -o-transition: border-color .218s;
-  transition: border-color .218s;
+  -webkit-transition: all .218s;
+  -moz-transition: all .218s;
+  -o-transition: all .218s;
+  transition: all .218s;
 }
 
 .cta-red {
