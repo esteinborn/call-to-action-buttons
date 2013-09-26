@@ -14,8 +14,8 @@
 <header>
   <div class="wrapper">
     <h1>Call to Action Buttons</h1>
-    <p><a href="https://github.com/esteinborn/call-to-action-buttons/archive/master.zip" class="cta cta-huge cta-small-small cta-green"><span class="icon-download">Download</span></a>
-    <a href="#demo" class="cta cta-huge cta-small-small cta-blue"><span class="icon-more">View Demo</span></a></p>
+    <p><a href="https://github.com/esteinborn/call-to-action-buttons/archive/master.zip" class="cta cta-huge cta-small-small cta-green download-button"><span class="icon-download">Download</span></a>
+    <a href="#demo" class="cta cta-huge cta-small-small cta-blue view-demo"><span class="icon-more">View Demo</span></a></p>
   </div>
 </header>
 <div class="main" role="main">
@@ -93,12 +93,18 @@
   </div>
 </footer>
 <script>
+var anchors = document.querySelectorAll(".main a");
+
+for (var i = 0; i < anchors.length; i++) {
+  anchors[i].addEventListener("click", function(event) {
+    event.returnValue = false;
+    event.preventDefault();
+  }, false);
+}
 
 function swapStyleSheet(a) {
   document.getElementById("cta-style").setAttribute('href', a);
-  return false;
 }
-
 </script>
 </body>
 </html>
