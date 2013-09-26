@@ -18,17 +18,18 @@
   -webkit-user-select: none;
   user-select: none;
   overflow: visible;
+  cursor: pointer;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
   -o-transition: all .15s;
   transition: all .15s;
   background-color: #d23a37;
 }
-/* line 28, ../scss/flat/_mixins.scss */
+/* line 29, ../scss/flat/_mixins.scss */
 .cta-red:hover {
   background-color: #d95b58;
 }
-/* line 33, ../scss/flat/_mixins.scss */
+/* line 34, ../scss/flat/_mixins.scss */
 .cta-red:active, .cta-red:focus {
   background-color: #e17c7a;
 }
@@ -53,17 +54,18 @@
   -webkit-user-select: none;
   user-select: none;
   overflow: visible;
+  cursor: pointer;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
   -o-transition: all .15s;
   transition: all .15s;
   background-color: #00b638;
 }
-/* line 28, ../scss/flat/_mixins.scss */
+/* line 29, ../scss/flat/_mixins.scss */
 .cta-green:hover {
   background-color: #00d040;
 }
-/* line 33, ../scss/flat/_mixins.scss */
+/* line 34, ../scss/flat/_mixins.scss */
 .cta-green:active, .cta-green:focus {
   background-color: #00e948;
 }
@@ -88,17 +90,18 @@
   -webkit-user-select: none;
   user-select: none;
   overflow: visible;
+  cursor: pointer;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
   -o-transition: all .15s;
   transition: all .15s;
   background-color: #0073cc;
 }
-/* line 28, ../scss/flat/_mixins.scss */
+/* line 29, ../scss/flat/_mixins.scss */
 .cta-blue:hover {
   background-color: #0087f0;
 }
-/* line 33, ../scss/flat/_mixins.scss */
+/* line 34, ../scss/flat/_mixins.scss */
 .cta-blue:active, .cta-blue:focus {
   background-color: #1499ff;
 }
@@ -123,6 +126,7 @@
   -webkit-user-select: none;
   user-select: none;
   overflow: visible;
+  cursor: pointer;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
   -o-transition: all .15s;
@@ -130,16 +134,16 @@
   background-color: #ffeb00;
   color: #444444;
 }
-/* line 28, ../scss/flat/_mixins.scss */
+/* line 29, ../scss/flat/_mixins.scss */
 .cta-yellow:hover {
   background-color: #fff14d;
 }
-/* line 33, ../scss/flat/_mixins.scss */
+/* line 34, ../scss/flat/_mixins.scss */
 .cta-yellow:active, .cta-yellow:focus {
   background-color: #fff799;
 }
 
-/* line 22, ../scss/flat/_cta.scss */
+/* line 21, ../scss/flat/_cta.scss */
 .icon-download,
 .icon-check,
 .icon-go,
@@ -149,101 +153,101 @@
   background: transparent url(sprite.png) no-repeat;
 }
 
-/* line 28, ../scss/flat/_cta.scss */
+/* line 27, ../scss/flat/_cta.scss */
 .icon-download, .icon-check {
   margin-left: -5px;
   padding-left: 37px;
 }
 
-/* line 33, ../scss/flat/_cta.scss */
+/* line 32, ../scss/flat/_cta.scss */
 .icon-go, .icon-more {
   margin-right: -5px;
   padding-right: 40px;
 }
 
-/* line 38, ../scss/flat/_cta.scss */
+/* line 37, ../scss/flat/_cta.scss */
 .icon-download {
   background-position: 0 -141px;
 }
 
-/* line 39, ../scss/flat/_cta.scss */
+/* line 38, ../scss/flat/_cta.scss */
 .icon-check {
   background-position: 0 -66px;
 }
 
-/* line 40, ../scss/flat/_cta.scss */
+/* line 39, ../scss/flat/_cta.scss */
 .icon-more {
   background-position: right 10px;
 }
 
-/* line 41, ../scss/flat/_cta.scss */
+/* line 40, ../scss/flat/_cta.scss */
 .icon-go {
   background-position: right -212px;
 }
 
-/* line 43, ../scss/flat/_cta.scss */
+/* line 42, ../scss/flat/_cta.scss */
 .cta-small {
   font-size: 16px;
   height: 36px;
   line-height: 36px;
 }
 
-/* line 49, ../scss/flat/_cta.scss */
+/* line 48, ../scss/flat/_cta.scss */
 .cta-small .icon-more {
   background-position: right 5px;
   height: 35px;
 }
 
-/* line 50, ../scss/flat/_cta.scss */
+/* line 49, ../scss/flat/_cta.scss */
 .cta-small .icon-check {
   background-position: 0 -72px;
   height: 35px;
 }
 
-/* line 51, ../scss/flat/_cta.scss */
+/* line 50, ../scss/flat/_cta.scss */
 .cta-small .icon-download {
   background-position: 0 -147px;
   height: 35px;
 }
 
-/* line 52, ../scss/flat/_cta.scss */
+/* line 51, ../scss/flat/_cta.scss */
 .cta-small .icon-go {
   background-position: right -219px;
   height: 35px;
 }
 
-/* line 54, ../scss/flat/_cta.scss */
+/* line 53, ../scss/flat/_cta.scss */
 .cta-big {
   font-size: 22px;
   height: 60px;
   line-height: 60px;
 }
 
-/* line 60, ../scss/flat/_cta.scss */
+/* line 59, ../scss/flat/_cta.scss */
 .cta-big .icon-download {
   background-position: 0 -136px;
   height: 60px;
 }
 
-/* line 61, ../scss/flat/_cta.scss */
+/* line 60, ../scss/flat/_cta.scss */
 .cta-big .icon-check {
   background-position: 0 -61px;
   height: 60px;
 }
 
-/* line 62, ../scss/flat/_cta.scss */
+/* line 61, ../scss/flat/_cta.scss */
 .cta-big .icon-more {
   background-position: right 15px;
   height: 60px;
 }
 
-/* line 63, ../scss/flat/_cta.scss */
+/* line 62, ../scss/flat/_cta.scss */
 .cta-big .icon-go {
   background-position: right -207px;
   height: 60px;
 }
 
-/* line 65, ../scss/flat/_cta.scss */
+/* line 64, ../scss/flat/_cta.scss */
 .cta-huge {
   font-size: 26px;
   height: 76px;
@@ -251,38 +255,38 @@
   padding: 0 26px;
 }
 
-/* line 72, ../scss/flat/_cta.scss */
+/* line 71, ../scss/flat/_cta.scss */
 .cta-huge .icon-download {
   background-position: 0 -128px;
   height: 76px;
 }
 
-/* line 73, ../scss/flat/_cta.scss */
+/* line 72, ../scss/flat/_cta.scss */
 .cta-huge .icon-check {
   background-position: 0 -53px;
   height: 76px;
 }
 
-/* line 74, ../scss/flat/_cta.scss */
+/* line 73, ../scss/flat/_cta.scss */
 .cta-huge .icon-more {
   background-position: right 23px;
   height: 76px;
 }
 
-/* line 75, ../scss/flat/_cta.scss */
+/* line 74, ../scss/flat/_cta.scss */
 .cta-huge .icon-go {
   background-position: right -199px;
   height: 76px;
 }
 
-/* line 77, ../scss/flat/_cta.scss */
+/* line 76, ../scss/flat/_cta.scss */
 .cta-subhead {
   padding: 20px 30px;
   font-size: 26px;
   line-height: 26px;
 }
 
-/* line 83, ../scss/flat/_cta.scss */
+/* line 82, ../scss/flat/_cta.scss */
 .cta-subhead i {
   color: #DDD;
   font-weight: normal;
