@@ -1,0 +1,90 @@
+.cta-red {
+  @include cta($color-red, 8%, 16%);
+}
+
+.cta-green {
+  @include cta($color-green, 5%, 10%);
+}
+
+.cta-blue {
+  @include cta($color-blue, 7%, 14%);
+}
+
+.cta-yellow {
+  @include cta($color-yellow, 15%, 30%);
+  color: contrast-color($color-yellow, #444, #FFF, 50%);
+}
+
+
+.icon-download,
+.icon-check,
+.icon-go,
+.icon-more {
+  display: block;
+  height: 50px;
+  background: transparent url(sprite.png) no-repeat;
+}
+
+.icon-download, .icon-check {
+  margin-left:-5px;
+  padding-left: 37px;
+}
+
+.icon-go, .icon-more {
+  margin-right:-5px;
+  padding-right: 40px;
+}
+
+.icon-download {background-position: 0 -141px;}
+.icon-check {background-position: 0 -66px;}
+.icon-more {background-position: right 10px;}
+.icon-go {background-position: right -212px;}
+
+.cta-small {
+  font-size: 16px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.cta-small .icon-more {background-position: right 5px; height: 35px;}
+.cta-small .icon-check {background-position: 0 -72px; height: 35px;}
+.cta-small .icon-download {background-position: 0 -147px; height: 35px;}
+.cta-small .icon-go {background-position: right -219px; height: 35px;}
+
+.cta-big {
+  font-size: 22px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.cta-big .icon-download {background-position: 0 -136px; height: 60px;}
+.cta-big .icon-check {background-position: 0 -61px; height: 60px;}
+.cta-big .icon-more {background-position: right 15px; height: 60px;}
+.cta-big .icon-go {background-position: right -207px; height: 60px;}
+
+.cta-huge {
+  font-size: 26px;
+  height: 76px;
+  line-height: 76px;
+  padding: 0 26px;
+}
+
+.cta-huge .icon-download {background-position: 0 -128px; height: 76px;}
+.cta-huge .icon-check {background-position: 0 -53px; height: 76px;}
+.cta-huge .icon-more {background-position: right 23px; height: 76px;}
+.cta-huge .icon-go {background-position: right -199px; height: 76px;}
+
+.cta-subhead {
+  padding: 20px 30px;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.cta-subhead i {
+  color: #DDD;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+  line-height: 26px;
+  font-size: 14px;
+}
