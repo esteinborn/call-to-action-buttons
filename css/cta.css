@@ -38,7 +38,7 @@
   border-radius: 5px;
 }
 
-/* line 39, ../scss/cta.scss */
+/* line 40, ../scss/cta.scss */
 .cta:hover,
 .cta:active {
   color: #FFF;
@@ -207,7 +207,11 @@
   background-image: linear-gradient(to bottom, #ff9900, #ffcc00);
 }
 
+<<<<<<< HEAD
 /* line 190, ../scss/cta.scss */
+=======
+/* line 193, ../scss/cta.scss */
+>>>>>>> origin/master
 .icon-download,
 .icon-check,
 .icon-go,
