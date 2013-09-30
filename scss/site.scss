@@ -21,7 +21,7 @@ body {
 header {
   text-align: center;
   padding: 1em 0 1em 0;
-  background-color: #5e738f;
+  background-color: #213146;
 
   .cta-orig & {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#5e738f), to(#455461));
@@ -39,9 +39,12 @@ header {
 @media (max-width: 550px) {
   header .cta-small-small {
     font-size: 16px;
-    height: 36px;
-    line-height: 36px;
-    padding: 0 8px;
+
+    .cta-orig & {
+      height: 36px;
+      line-height: 36px;
+      padding: 0 8px;
+    }
 
     .icon-more {background-position: right 5px !important; height: 35px;}
     .icon-download {background-position: 0 -147px !important; height: 35px;}

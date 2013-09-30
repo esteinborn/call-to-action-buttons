@@ -4,7 +4,7 @@ $icon-sprite-dimensions: true;
 
 .cta {
   display: inline-block;
-  padding: 0 1em;
+  padding: 0 1.5em 0 1em;
   margin: 0.25em;
   color: #FCFCFC;
   font: normal 1em Arial, Helvetica, sans-serif;
@@ -24,29 +24,13 @@ $icon-sprite-dimensions: true;
     display: block;
     float: right;
     position: relative;
-    top: 0.3em;
     left: 0.5em;
-    opacity: 0.8;
+    font-size: 1.2em;
   }
 
-    &.cta-small:after {
-      top: 0.1em;
-      left: 0.5em;
-    }
-
-    &.cta-big:after {
-      top: 0.6em;
-      left: 0.5em;
-    }
-
-    &.cta-huge:after {
-      top: 0.7em;
-      left: 0.5em;
-    }
-
     &.cta-subhead:after {
-      top: -1.4em;
-      left: 1.7em;
+      top: -1.1em;
+      left: 1.4em;
     }
 
 }
@@ -61,17 +45,17 @@ $icon-sprite-dimensions: true;
     }
 }
 
-$icon-list: download, check, go, more, mail, pdf, search;
+// $icon-list: download, check, go, more, mail, pdf, search;
 
-@each $type in $icon-list {
+// @each $type in $icon-list {
 
-  .icon-#{$type} {
+//   .icon-#{$type} {
 
-    &:after {
-      @include icon-sprite(#{$type});
-    }
-  }
-}
+//     &:after {
+//       @include icon-sprite(#{$type});
+//     }
+//   }
+// }
 
 .cta-small {
   font-size: 0.9em;
