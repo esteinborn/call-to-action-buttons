@@ -1,297 +1,162 @@
-/* line 1, ../scss/flat/_cta.scss */
-.cta-red {
-  display: inline-block;
-  padding: 0 20px;
-  margin: 5px;
-  color: #FCFCFC;
-  font: normal 18px Arial, Helvetica, sans-serif;
-  height: 50px;
-  text-decoration: none;
-  line-height: 50px;
-  white-space: nowrap;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  position: relative;
-  z-index: 10;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  overflow: visible;
-  cursor: pointer;
-  -webkit-transition: all .15s;
-  -moz-transition: all .15s;
-  -o-transition: all .15s;
-  transition: all .15s;
-  background-color: #d23a37;
-}
-/* line 29, ../scss/flat/_mixins.scss */
-.cta-red:hover {
-  background-color: #d95b58;
-}
-/* line 34, ../scss/flat/_mixins.scss */
-.cta-red:active, .cta-red:focus {
-  background-color: #e17c7a;
-}
+/* line 95, icon/*.png */
+.icon-sprite, .icon-download:after, .icon-check:after, .icon-go:after, .icon-more:after, .icon-mail:after, .icon-pdf:after, .icon-search:after {
+  background-image: url('../img/icon-s60b0c5a160.png');
+  background-repeat: no-repeat; }
 
 /* line 5, ../scss/flat/_cta.scss */
-.cta-green {
+.cta {
   display: inline-block;
-  padding: 0 20px;
-  margin: 5px;
+  padding: 0 1em;
+  margin: 0.25em;
   color: #FCFCFC;
-  font: normal 18px Arial, Helvetica, sans-serif;
-  height: 50px;
+  font: normal 1em Arial, Helvetica, sans-serif;
+  line-height: 2.5em;
   text-decoration: none;
-  line-height: 50px;
   white-space: nowrap;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  position: relative;
-  z-index: 10;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  overflow: visible;
   cursor: pointer;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
   -o-transition: all .15s;
-  transition: all .15s;
-  background-color: #00b638;
-}
-/* line 29, ../scss/flat/_mixins.scss */
-.cta-green:hover {
-  background-color: #00d040;
-}
-/* line 34, ../scss/flat/_mixins.scss */
-.cta-green:active, .cta-green:focus {
-  background-color: #00e948;
-}
-
-/* line 9, ../scss/flat/_cta.scss */
-.cta-blue {
-  display: inline-block;
-  padding: 0 20px;
-  margin: 5px;
-  color: #FCFCFC;
-  font: normal 18px Arial, Helvetica, sans-serif;
-  height: 50px;
-  text-decoration: none;
-  line-height: 50px;
-  white-space: nowrap;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  position: relative;
-  z-index: 10;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  overflow: visible;
-  cursor: pointer;
-  -webkit-transition: all .15s;
-  -moz-transition: all .15s;
-  -o-transition: all .15s;
-  transition: all .15s;
-  background-color: #0073cc;
-}
-/* line 29, ../scss/flat/_mixins.scss */
-.cta-blue:hover {
-  background-color: #0087f0;
-}
-/* line 34, ../scss/flat/_mixins.scss */
-.cta-blue:active, .cta-blue:focus {
-  background-color: #1499ff;
-}
-
-/* line 13, ../scss/flat/_cta.scss */
-.cta-yellow {
-  display: inline-block;
-  padding: 0 20px;
-  margin: 5px;
-  color: #FCFCFC;
-  font: normal 18px Arial, Helvetica, sans-serif;
-  height: 50px;
-  text-decoration: none;
-  line-height: 50px;
-  white-space: nowrap;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  position: relative;
-  z-index: 10;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  overflow: visible;
-  cursor: pointer;
-  -webkit-transition: all .15s;
-  -moz-transition: all .15s;
-  -o-transition: all .15s;
-  transition: all .15s;
-  background-color: #ffeb00;
-  color: #444444;
-}
-/* line 29, ../scss/flat/_mixins.scss */
-.cta-yellow:hover {
-  background-color: #fff14d;
-}
-/* line 34, ../scss/flat/_mixins.scss */
-.cta-yellow:active, .cta-yellow:focus {
-  background-color: #fff799;
-}
-
-/* line 21, ../scss/flat/_cta.scss */
-.icon-download,
-.icon-check,
-.icon-go,
-.icon-more {
-  display: block;
-  height: 50px;
-  background: transparent url(sprite.png) no-repeat;
-}
-
-/* line 27, ../scss/flat/_cta.scss */
-.icon-download, .icon-check {
-  margin-left: -5px;
-  padding-left: 37px;
-}
-
-/* line 32, ../scss/flat/_cta.scss */
-.icon-go, .icon-more {
-  margin-right: -5px;
-  padding-right: 40px;
-}
-
-/* line 37, ../scss/flat/_cta.scss */
-.icon-download {
-  background-position: 0 -141px;
-}
-
-/* line 38, ../scss/flat/_cta.scss */
-.icon-check {
-  background-position: 0 -66px;
-}
-
-/* line 39, ../scss/flat/_cta.scss */
-.icon-more {
-  background-position: right 10px;
-}
-
-/* line 40, ../scss/flat/_cta.scss */
-.icon-go {
-  background-position: right -212px;
-}
-
-/* line 42, ../scss/flat/_cta.scss */
-.cta-small {
-  font-size: 16px;
-  height: 36px;
-  line-height: 36px;
-}
-
-/* line 48, ../scss/flat/_cta.scss */
-.cta-small .icon-more {
-  background-position: right 5px;
-  height: 35px;
-}
-
-/* line 49, ../scss/flat/_cta.scss */
-.cta-small .icon-check {
-  background-position: 0 -72px;
-  height: 35px;
-}
-
-/* line 50, ../scss/flat/_cta.scss */
-.cta-small .icon-download {
-  background-position: 0 -147px;
-  height: 35px;
-}
-
-/* line 51, ../scss/flat/_cta.scss */
-.cta-small .icon-go {
-  background-position: right -219px;
-  height: 35px;
-}
-
-/* line 53, ../scss/flat/_cta.scss */
-.cta-big {
-  font-size: 22px;
-  height: 60px;
-  line-height: 60px;
-}
+  transition: all .15s; }
+  /* line 22, ../scss/flat/_cta.scss */
+  .cta:after {
+    content: " ";
+    display: block;
+    float: right;
+    position: relative;
+    top: 0.3em;
+    left: 0.5em;
+    opacity: 0.8; }
+  /* line 32, ../scss/flat/_cta.scss */
+  .cta.cta-small:after {
+    top: 0.1em;
+    left: 0.5em; }
+  /* line 37, ../scss/flat/_cta.scss */
+  .cta.cta-big:after {
+    top: 0.6em;
+    left: 0.5em; }
+  /* line 42, ../scss/flat/_cta.scss */
+  .cta.cta-huge:after {
+    top: 0.7em;
+    left: 0.5em; }
+  /* line 47, ../scss/flat/_cta.scss */
+  .cta.cta-subhead:after {
+    top: -1.4em;
+    left: 1.7em; }
 
 /* line 59, ../scss/flat/_cta.scss */
-.cta-big .icon-download {
-  background-position: 0 -136px;
-  height: 60px;
-}
+.cta-red {
+  background-color: #cf1c1c;
+  color: white; }
+  /* line 5, ../scss/flat/_mixins.scss */
+  .cta-red:hover {
+    background-color: #e33131; }
+  /* line 10, ../scss/flat/_mixins.scss */
+  .cta-red:active, .cta-red:focus {
+    background-color: #e85555; }
 
-/* line 60, ../scss/flat/_cta.scss */
-.cta-big .icon-check {
-  background-position: 0 -61px;
-  height: 60px;
-}
+/* line 59, ../scss/flat/_cta.scss */
+.cta-green {
+  background-color: #00b638;
+  color: white; }
+  /* line 5, ../scss/flat/_mixins.scss */
+  .cta-green:hover {
+    background-color: #00d040; }
+  /* line 10, ../scss/flat/_mixins.scss */
+  .cta-green:active, .cta-green:focus {
+    background-color: #00e948; }
 
-/* line 61, ../scss/flat/_cta.scss */
-.cta-big .icon-more {
-  background-position: right 15px;
-  height: 60px;
-}
+/* line 59, ../scss/flat/_cta.scss */
+.cta-blue {
+  background-color: #0073cc;
+  color: white; }
+  /* line 5, ../scss/flat/_mixins.scss */
+  .cta-blue:hover {
+    background-color: #0087f0; }
+  /* line 10, ../scss/flat/_mixins.scss */
+  .cta-blue:active, .cta-blue:focus {
+    background-color: #1499ff; }
 
-/* line 62, ../scss/flat/_cta.scss */
-.cta-big .icon-go {
-  background-position: right -207px;
-  height: 60px;
-}
+/* line 59, ../scss/flat/_cta.scss */
+.cta-yellow {
+  background-color: #ffeb00;
+  color: #222222; }
+  /* line 5, ../scss/flat/_mixins.scss */
+  .cta-yellow:hover {
+    background-color: #fff14d; }
+  /* line 10, ../scss/flat/_mixins.scss */
+  .cta-yellow:active, .cta-yellow:focus {
+    background-color: #fff799; }
 
-/* line 64, ../scss/flat/_cta.scss */
-.cta-huge {
-  font-size: 26px;
-  height: 76px;
-  line-height: 76px;
-  padding: 0 26px;
-}
+/* line 70, ../scss/flat/_cta.scss */
+.icon-download:after {
+  background-position: 0 -62px;
+  height: 32px;
+  width: 32px; }
 
-/* line 71, ../scss/flat/_cta.scss */
-.cta-huge .icon-download {
-  background-position: 0 -128px;
-  height: 76px;
-}
+/* line 70, ../scss/flat/_cta.scss */
+.icon-check:after {
+  background-position: 0 0;
+  height: 32px;
+  width: 32px; }
 
-/* line 72, ../scss/flat/_cta.scss */
-.cta-huge .icon-check {
-  background-position: 0 -53px;
-  height: 76px;
-}
+/* line 70, ../scss/flat/_cta.scss */
+.icon-go:after {
+  background-position: 0 -124px;
+  height: 32px;
+  width: 32px; }
 
-/* line 73, ../scss/flat/_cta.scss */
-.cta-huge .icon-more {
-  background-position: right 23px;
-  height: 76px;
-}
+/* line 70, ../scss/flat/_cta.scss */
+.icon-more:after {
+  background-position: 0 -248px;
+  height: 32px;
+  width: 32px; }
 
-/* line 74, ../scss/flat/_cta.scss */
-.cta-huge .icon-go {
-  background-position: right -199px;
-  height: 76px;
-}
+/* line 70, ../scss/flat/_cta.scss */
+.icon-mail:after {
+  background-position: 0 -186px;
+  height: 32px;
+  width: 32px; }
+
+/* line 70, ../scss/flat/_cta.scss */
+.icon-pdf:after {
+  background-position: 0 -310px;
+  height: 32px;
+  width: 32px; }
+
+/* line 70, ../scss/flat/_cta.scss */
+.icon-search:after {
+  background-position: 0 -372px;
+  height: 32px;
+  width: 32px; }
 
 /* line 76, ../scss/flat/_cta.scss */
-.cta-subhead {
-  padding: 20px 30px;
-  font-size: 26px;
-  line-height: 26px;
-}
+.cta-small {
+  font-size: 0.9em; }
 
-/* line 82, ../scss/flat/_cta.scss */
+/* line 80, ../scss/flat/_cta.scss */
+.cta-big {
+  font-size: 1.3em; }
+
+/* line 84, ../scss/flat/_cta.scss */
+.cta-huge {
+  font-size: 1.6em; }
+
+/* line 88, ../scss/flat/_cta.scss */
+.cta-subhead {
+  padding: 0.75em 2.2em 0.75em 0.75em;
+  font-size: 1.75em;
+  height: 1.5em;
+  line-height: 1em; }
+
+/* line 95, ../scss/flat/_cta.scss */
 .cta-subhead i {
-  color: #DDD;
+  width: 100%;
+  display: block;
+  color: #EEE;
   font-weight: normal;
   font-style: normal;
-  display: block;
-  line-height: 26px;
-  font-size: 14px;
-}
+  line-height: 1.5em;
+  font-size: 0.4em; }
