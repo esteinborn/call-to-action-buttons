@@ -1,10 +1,4 @@
-@charset "UTF-8";
-/* line 95, icon/*.png */
-.icon-sprite {
-  background-image: url('../img/icon-s60b0c5a160.png');
-  background-repeat: no-repeat; }
-
-/* line 5, ../scss/flat/_cta.scss */
+/* line 1, ../scss/layout/_default.scss */
 .cta {
   display: inline-block;
   padding: 0 1.5em 0 1em;
@@ -21,7 +15,7 @@
   -moz-transition: all .15s;
   -o-transition: all .15s;
   transition: all .15s; }
-  /* line 22, ../scss/flat/_cta.scss */
+  /* line 18, ../scss/layout/_default.scss */
   .cta:after {
     content: " ";
     display: block;
@@ -29,75 +23,31 @@
     position: relative;
     left: 0.5em;
     font-size: 1.2em; }
-  /* line 31, ../scss/flat/_cta.scss */
+  /* line 27, ../scss/layout/_default.scss */
   .cta.cta-subhead:after {
     top: -1.1em;
     left: 1.4em; }
 
-/* line 43, ../scss/flat/_cta.scss */
-.cta-red {
-  background-color: #cf1c1c;
-  color: white; }
-  /* line 5, ../scss/flat/_mixins.scss */
-  .cta-red:hover {
-    background-color: #e33131; }
-  /* line 10, ../scss/flat/_mixins.scss */
-  .cta-red:active, .cta-red:focus {
-    background-color: #e85555; }
-
-/* line 43, ../scss/flat/_cta.scss */
-.cta-green {
-  background-color: #00b638;
-  color: white; }
-  /* line 5, ../scss/flat/_mixins.scss */
-  .cta-green:hover {
-    background-color: #00ca3e; }
-  /* line 10, ../scss/flat/_mixins.scss */
-  .cta-green:active, .cta-green:focus {
-    background-color: #00df45; }
-
-/* line 43, ../scss/flat/_cta.scss */
-.cta-blue {
-  background-color: #0073cc;
-  color: white; }
-  /* line 5, ../scss/flat/_mixins.scss */
-  .cta-blue:hover {
-    background-color: #0087f0; }
-  /* line 10, ../scss/flat/_mixins.scss */
-  .cta-blue:active, .cta-blue:focus {
-    background-color: #1499ff; }
-
-/* line 43, ../scss/flat/_cta.scss */
-.cta-yellow {
-  background-color: #ffeb00;
-  color: #222222; }
-  /* line 5, ../scss/flat/_mixins.scss */
-  .cta-yellow:hover {
-    background-color: #fff14d; }
-  /* line 10, ../scss/flat/_mixins.scss */
-  .cta-yellow:active, .cta-yellow:focus {
-    background-color: #fff799; }
-
-/* line 60, ../scss/flat/_cta.scss */
+/* line 34, ../scss/layout/_default.scss */
 .cta-small {
   font-size: 0.9em; }
 
-/* line 64, ../scss/flat/_cta.scss */
+/* line 38, ../scss/layout/_default.scss */
 .cta-big {
   font-size: 1.3em; }
 
-/* line 68, ../scss/flat/_cta.scss */
+/* line 42, ../scss/layout/_default.scss */
 .cta-huge {
   font-size: 1.6em; }
 
-/* line 72, ../scss/flat/_cta.scss */
+/* line 46, ../scss/layout/_default.scss */
 .cta-subhead {
   padding: 0.75em 2.2em 0.75em 0.75em;
   font-size: 1.75em;
   height: 1.5em;
   line-height: 1em; }
 
-/* line 79, ../scss/flat/_cta.scss */
+/* line 53, ../scss/layout/_default.scss */
 .cta-subhead i {
   width: 100%;
   display: block;
@@ -107,6 +57,109 @@
   line-height: 1.5em;
   font-size: 0.4em; }
 
+/* line 1, ../scss/flat/_cta.scss */
+.cta {
+  display: inline-block;
+  padding: 0 1.5em 0 1em;
+  margin: 0.25em;
+  color: #FCFCFC;
+  font: normal 1em Arial, Helvetica, sans-serif;
+  line-height: 2.5em;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+  -o-transition: all .15s;
+  transition: all .15s; }
+  /* line 18, ../scss/flat/_cta.scss */
+  .cta:after {
+    content: " ";
+    display: block;
+    float: right;
+    position: relative;
+    left: 0.5em;
+    font-size: 1.2em; }
+  /* line 27, ../scss/flat/_cta.scss */
+  .cta.cta-subhead:after {
+    top: -1.1em;
+    left: 1.4em; }
+
+/* line 34, ../scss/flat/_cta.scss */
+.cta-small {
+  font-size: 0.9em; }
+
+/* line 38, ../scss/flat/_cta.scss */
+.cta-big {
+  font-size: 1.3em; }
+
+/* line 42, ../scss/flat/_cta.scss */
+.cta-huge {
+  font-size: 1.6em; }
+
+/* line 46, ../scss/flat/_cta.scss */
+.cta-subhead {
+  padding: 0.75em 2.2em 0.75em 0.75em;
+  font-size: 1.75em;
+  height: 1.5em;
+  line-height: 1em; }
+
+/* line 53, ../scss/flat/_cta.scss */
+.cta-subhead i {
+  width: 100%;
+  display: block;
+  color: #EEE;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5em;
+  font-size: 0.4em; }
+
+/* line 6, ../scss/flat/_colors.scss */
+.cta-red {
+  background-color: #cf1c1c;
+  color: white; }
+  /* line 5, ../scss/layout/_mixins.scss */
+  .cta-red:hover {
+    background-color: #e33131; }
+  /* line 10, ../scss/layout/_mixins.scss */
+  .cta-red:active, .cta-red:focus {
+    background-color: #e85555; }
+
+/* line 6, ../scss/flat/_colors.scss */
+.cta-green {
+  background-color: #00b638;
+  color: white; }
+  /* line 5, ../scss/layout/_mixins.scss */
+  .cta-green:hover {
+    background-color: #00ca3e; }
+  /* line 10, ../scss/layout/_mixins.scss */
+  .cta-green:active, .cta-green:focus {
+    background-color: #00df45; }
+
+/* line 6, ../scss/flat/_colors.scss */
+.cta-blue {
+  background-color: #0073cc;
+  color: white; }
+  /* line 5, ../scss/layout/_mixins.scss */
+  .cta-blue:hover {
+    background-color: #0087f0; }
+  /* line 10, ../scss/layout/_mixins.scss */
+  .cta-blue:active, .cta-blue:focus {
+    background-color: #1499ff; }
+
+/* line 6, ../scss/flat/_colors.scss */
+.cta-yellow {
+  background-color: #ffeb00;
+  color: #222222; }
+  /* line 5, ../scss/layout/_mixins.scss */
+  .cta-yellow:hover {
+    background-color: #fff14d; }
+  /* line 10, ../scss/layout/_mixins.scss */
+  .cta-yellow:active, .cta-yellow:focus {
+    background-color: #fff799; }
+
 @font-face {
   font-family: 'call-to-action';
   src: url("font/call-to-action.eot?42648268");
@@ -114,73 +167,41 @@
   font-weight: normal;
   font-style: normal; }
 
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'call-to-action';
-    src: url('../font/call-to-action.svg?42648268#call-to-action') format('svg');
-  }
-}
-*/
-/* line 22, ../scss/flat/_fonts.scss */
+/* line 12, ../scss/layout/_fonts.scss */
 [class^="icon-"]:after, [class*=" icon-"]:after {
   font-family: "call-to-action";
   font-style: normal;
   font-weight: normal;
   speak: none;
-  xdisplay: inline-block;
   text-decoration: inherit;
-  xwidth: 1em;
-  xmargin-right: .2em;
   text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  xline-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  xmargin-left: .2em;
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+  text-transform: none; }
 
-/* line 53, ../scss/flat/_fonts.scss */
+/* line 23, ../scss/layout/_fonts.scss */
 .icon-doc:after {
   content: '\e806'; }
 
-/* 'εáå' */
-/* line 54, ../scss/flat/_fonts.scss */
+/* line 24, ../scss/layout/_fonts.scss */
 .icon-search:after {
   content: '\e800'; }
 
-/* 'εáÇ' */
-/* line 55, ../scss/flat/_fonts.scss */
+/* line 25, ../scss/layout/_fonts.scss */
 .icon-mail:after {
   content: '\e803'; }
 
-/* 'εáâ' */
-/* line 56, ../scss/flat/_fonts.scss */
+/* line 26, ../scss/layout/_fonts.scss */
 .icon-check:after {
   content: '\e804'; }
 
-/* 'εáä' */
-/* line 57, ../scss/flat/_fonts.scss */
+/* line 27, ../scss/layout/_fonts.scss */
 .icon-download:after {
   content: '\e805'; }
 
-/* 'εáà' */
-/* line 58, ../scss/flat/_fonts.scss */
+/* line 28, ../scss/layout/_fonts.scss */
 .icon-go:after {
   content: '\e802'; }
 
-/* 'εáé' */
-/* line 59, ../scss/flat/_fonts.scss */
+/* line 29, ../scss/layout/_fonts.scss */
 .icon-more:after {
   content: '\e801'; }
-
-/* 'εáü' */

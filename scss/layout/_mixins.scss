@@ -1,0 +1,47 @@
+@mixin cta-flat($color, $hover, $active) {
+  background-color: $color;
+  color: contrast-color($color, #222, #FFF, 50%);
+
+    &:hover {
+      background-color: lighten($color, $hover);
+    }
+
+    &:active,
+    &:focus {
+      background-color: lighten($color, $active);
+    }
+
+}
+
+@mixin cta($colordefault) {
+  $mod: 6%;
+  $gradient: 10%;
+  $light: lighten($colordefault, $mod);
+  $lighter: lighten($light, $mod);
+  $dark: darken($colordefault, $mod);
+  $darker: darken($dark, $mod);
+
+  border: 1px solid $dark;
+  background: $colordefault;
+  color: contrast-color($colordefault, #222, #FFF, 60%);
+  @include background-image(linear-gradient(top, $light 0%, $colordefault 100%));
+
+    &:before {
+      border: 1px solid $lighter;
+      border-color: #EEE;
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    &:hover {
+      border: solid 1px $darker;
+      background: $lighter;
+      @include background-image(linear-gradient(top, $lighter 0%, $light 100%));
+    }
+
+    &:active,
+    &:focus {
+      background: $dark;
+      @include background-image(linear-gradient(top, $colordefault 0%, $light 100%));
+    }
+
+}

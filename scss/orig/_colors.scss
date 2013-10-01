@@ -1,0 +1,7 @@
+@each $color in $colors {
+    $classname:     'cta-' + nth($color, 1);
+    $colordefault:  nth($color, 2);
+    .#{$classname} {
+        @include cta($colordefault);
+    }
+}
