@@ -35,50 +35,49 @@ header {
     /* line 43, ../scss/site.scss */
     .cta-orig header .cta-small-small {
       height: 36px;
-      line-height: 36px;
-      padding: 0 8px; }
-    /* line 49, ../scss/site.scss */
+      line-height: 36px; }
+    /* line 48, ../scss/site.scss */
     header .cta-small-small .icon-more {
       background-position: right 5px !important;
       height: 35px; }
-    /* line 50, ../scss/site.scss */
+    /* line 49, ../scss/site.scss */
     header .cta-small-small .icon-download {
       background-position: 0 -147px !important;
       height: 35px; }
 
-  /* line 54, ../scss/site.scss */
+  /* line 53, ../scss/site.scss */
   .cta-flat .icon-more.cta-small-small:after,
   .cta-flat .icon-download.cta-small-small:after {
     top: 0.1em;
     left: 0.5em; } }
 @media (min-width: 550px) {
-  /* line 62, ../scss/site.scss */
+  /* line 61, ../scss/site.scss */
   header {
     padding: 4em 0 3em 0; } }
-/* line 67, ../scss/site.scss */
+/* line 66, ../scss/site.scss */
 h1 {
   margin-top: 0;
   color: #EEEEEE;
   font-size: 1.3em; }
   @media (min-width: 450px) {
-    /* line 67, ../scss/site.scss */
+    /* line 66, ../scss/site.scss */
     h1 {
       font-size: 2em; } }
   @media (min-width: 670px) {
-    /* line 67, ../scss/site.scss */
+    /* line 66, ../scss/site.scss */
     h1 {
       font-size: 3em; } }
 
-/* line 80, ../scss/site.scss */
+/* line 79, ../scss/site.scss */
 header .buttons {
   max-width: 481px;
   margin: 0 auto; }
 
-/* line 85, ../scss/site.scss */
+/* line 84, ../scss/site.scss */
 header .buttons li {
   margin: 0 5px; }
 
-/* line 89, ../scss/site.scss */
+/* line 88, ../scss/site.scss */
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
@@ -86,21 +85,21 @@ header .buttons li {
   overflow: hidden; }
 
 @media (min-width: 550px) {
-  /* line 97, ../scss/site.scss */
+  /* line 96, ../scss/site.scss */
   .wrapper {
     padding: 0 2em; } }
-/* line 102, ../scss/site.scss */
+/* line 101, ../scss/site.scss */
 .main {
   padding-bottom: 2em; }
-  /* line 105, ../scss/site.scss */
+  /* line 104, ../scss/site.scss */
   .cta-orig .main {
     box-shadow: 0 0 12px #34454B; }
 
-/* line 110, ../scss/site.scss */
+/* line 109, ../scss/site.scss */
 footer {
   padding: 1em 0 3em 0;
   background-color: #5e738f; }
-  /* line 114, ../scss/site.scss */
+  /* line 113, ../scss/site.scss */
   .cta-orig footer {
     box-shadow: inset 0 0 14px #34454B;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#5e738f), to(#455461));
@@ -109,12 +108,12 @@ footer {
     background-image: -o-linear-gradient(top, #5e738f, #455461);
     background-image: linear-gradient(to bottom, #5e738f, #455461); }
 
-/* line 125, ../scss/site.scss */
+/* line 124, ../scss/site.scss */
 footer a,
 footer a:visited {
   color: #EEE; }
 
-/* line 129, ../scss/site.scss */
+/* line 128, ../scss/site.scss */
 .buttons {
   list-style: none;
   margin-bottom: 0;
@@ -122,14 +121,14 @@ footer a:visited {
   clear: both;
   overflow: hidden; }
 
-/* line 137, ../scss/site.scss */
+/* line 136, ../scss/site.scss */
 .buttons li {
   float: left;
   display: block;
   margin: 0 20px 0 0;
   padding: 0; }
 
-/* line 144, ../scss/site.scss */
+/* line 143, ../scss/site.scss */
 .forkme_banner {
   position: static;
   width: 100%;
@@ -141,7 +140,7 @@ footer a:visited {
   text-indent: 0; }
 
 @media (min-width: 840px) {
-  /* line 157, ../scss/site.scss */
+  /* line 156, ../scss/site.scss */
   .forkme_banner {
     position: absolute;
     top: 0;
