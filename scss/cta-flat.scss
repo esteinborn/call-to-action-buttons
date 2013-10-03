@@ -2,5 +2,8 @@
 @import "compass";
 
 @import "flat/_variables.scss";
-@import "flat/_mixins.scss";
+@import "layout/_mixins.scss";
+@import "layout/_default.scss";
 @import "flat/_cta.scss";
+@import "flat/_colors.scss";
+@import "layout/_fonts.scss";

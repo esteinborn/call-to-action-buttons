@@ -18,32 +18,26 @@ module.exports = function(grunt) {
         compass: {
             options: {
                 require: [
-                    'breakpoint',
-                    //'sass-media_query_combiner',
-                    //'toolkit'
+                    'breakpoint'
                 ],
-                //basePath: "/",
                 cssDir: 'css',
                 sassDir: 'scss',
                 environment: 'development',
-                imagesDir: 'images',
+                imagesDir: 'img',
                 javascriptsDir: 'js',
-                outputStyle: 'expanded', //nested, expanded, compact, compressed
-                //noLineComments: true,
+                outputStyle: 'nested', //nested, expanded, compact, compressed
                 relativeAssets: true,
-                //sourcemap: true,
-                force: true
             },
             dev: {
                 options: {
-                    //basePath: "/"
-                    //debugInfo: true
+                    force: true
                 }
             },
             prod: {
                 options: {
-                    outputStyle: 'compressed',
-                    environment: 'production'
+                    outputStyle: 'expanded',
+                    noLineComments: true
+
                 }
             }
         }

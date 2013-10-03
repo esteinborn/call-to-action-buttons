@@ -4,7 +4,7 @@
 
 $breakpoint-no-query-fallbacks: true;
 * {
-    -webkit-transition: all .218s;
+  -webkit-transition: all .218s;
   -moz-transition: all .218s;
   -o-transition: all .218s;
   transition: all .218s;
@@ -12,7 +12,7 @@ $breakpoint-no-query-fallbacks: true;
 }
 
 body {
-  font: 16px Verdana, Helvetica, sans-serif;
+  font: 18px Verdana, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #BBD6DF;
@@ -21,12 +21,15 @@ body {
 header {
   text-align: center;
   padding: 1em 0 1em 0;
-  background-color: #5e738f;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5e738f), to(#455461));
-  background-image: -webkit-linear-gradient(top, #5e738f, #455461);
-  background-image:    -moz-linear-gradient(top, #5e738f, #455461);
-  background-image:      -o-linear-gradient(top, #5e738f, #455461);
-  background-image:         linear-gradient(to bottom, #5e738f, #455461);
+  background-color: #213146;
+
+  .cta-orig & {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5e738f), to(#455461));
+    background-image: -webkit-linear-gradient(top, #5e738f, #455461);
+    background-image:    -moz-linear-gradient(top, #5e738f, #455461);
+    background-image:      -o-linear-gradient(top, #5e738f, #455461);
+    background-image:         linear-gradient(to bottom, #5e738f, #455461);
+  }
 
   .wrapper {
     padding: 0;
@@ -36,13 +39,22 @@ header {
 @media (max-width: 550px) {
   header .cta-small-small {
     font-size: 16px;
-    height: 36px;
-    line-height: 36px;
-    padding: 0 8px;
+
+    .cta-orig & {
+      height: 36px;
+      line-height: 36px;
+    }
+
+    .icon-more {background-position: right 5px !important; height: 35px;}
+    .icon-download {background-position: 0 -147px !important; height: 35px;}
   }
 
-  header .cta-small-small .icon-more {background-position: right 5px; height: 35px;}
-  header .cta-small-small .icon-download {background-position: 0 -147px; height: 35px;}
+  .cta-flat .icon-more.cta-small-small:after,
+  .cta-flat .icon-download.cta-small-small:after {
+    top: 0.1em;
+    left: 0.5em;
+  }
+
 }
 
 @media (min-width: 550px) {
@@ -88,18 +100,24 @@ header .buttons li {
 
 .main {
   padding-bottom: 2em;
-  box-shadow: 0 0 12px #34454B;
+
+  .cta-orig & {
+    box-shadow: 0 0 12px #34454B;
+  }
 }
 
 footer {
-  box-shadow: inset 0 0 14px #34454B;
   padding:1em 0 3em 0;
   background-color: #5e738f;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5e738f), to(#455461));
-  background-image: -webkit-linear-gradient(top, #5e738f, #455461);
-  background-image:    -moz-linear-gradient(top, #5e738f, #455461);
-  background-image:      -o-linear-gradient(top, #5e738f, #455461);
-  background-image:         linear-gradient(to bottom, #5e738f, #455461);
+
+  .cta-orig & {
+    box-shadow: inset 0 0 14px #34454B;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5e738f), to(#455461));
+    background-image: -webkit-linear-gradient(top, #5e738f, #455461);
+    background-image:    -moz-linear-gradient(top, #5e738f, #455461);
+    background-image:      -o-linear-gradient(top, #5e738f, #455461);
+    background-image:         linear-gradient(to bottom, #5e738f, #455461);
+  }
 }
 
 footer a,

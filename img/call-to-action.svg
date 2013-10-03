@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="call-to-action" horiz-adv-x="1000" >
+<font-face font-family="call-to-action" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="search" unicode="&#xe800;" d="m0 8l186 186l1 0q-66 105-66 228q0 178 125 303t303 125t303-125t125-303t-125-302t-303-125q-106 0-197 48l-194-193z m311 415q0-98 70-168t168-69t168 69t70 168t-70 168t-168 70t-168-70t-70-168z" horiz-adv-x="977" />
+<glyph glyph-name="mail" unicode="&#xe803;" d="m0-29l324 342l176-100l176 100l324-342l-1000 0z m0 114l0 414l254-147z m0 503l0 141l1000 0l0-141l-500-285z m746-236l254 147l0-414z" horiz-adv-x="1000" />
+<glyph glyph-name="ok" unicode="&#xe804;" d="m0 260l162 162l166-164l508 510l164-164l-510-510l-162-162l-162 164z" horiz-adv-x="1000" />
+<glyph glyph-name="download-alt" unicode="&#xe805;" d="m0-150l0 135l1000 0l0-135l-1000 0z m88 586l228 0l0 414l370 0l0-414l228 0l-414-385z" horiz-adv-x="1000" />
+<glyph glyph-name="right" unicode="&#xe802;" d="m0 170l0 360l414 0l0 211l586-391l-586-391l0 211l-414 0z" horiz-adv-x="1000" />
+<glyph glyph-name="play-circled" unicode="&#xe801;" d="m0 350q0 207 146 354t354 146t353-146t147-354t-147-353t-353-147t-354 147t-146 353z m375-250l375 250l-375 250l0-500z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

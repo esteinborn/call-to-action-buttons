@@ -1,0 +1,9 @@
+@each $color in $colors {
+    $classname:     'cta-' + nth($color, 1);
+    $colordefault:  nth($color, 2);
+    $colorhover:    nth($color, 3);
+    $coloractive:   nth($color, 4);
+    .#{$classname} {
+        @include cta-flat($colordefault, $colorhover, $coloractive);
+    }
+}
