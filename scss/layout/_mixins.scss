@@ -15,7 +15,6 @@
 
 @mixin cta($colordefault) {
   $mod: 6%;
-  $gradient: 10%;
   $light: lighten($colordefault, $mod);
   $lighter: lighten($light, $mod);
   $dark: darken($colordefault, $mod);

@@ -12,7 +12,8 @@
     "grunt-contrib-watch": "~0.4.4",
     "grunt-contrib-compass": "~0.3.0",
     "grunt-beep": "~0.3.0",
-    "grunt-contrib-csslint": "~0.1.2"
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-cssmin": "~0.6.2"
   },
   "license": {
     "type": "MIT",

@@ -4,6 +4,11 @@
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   position: relative;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+
 }
 
 .cta:before {
